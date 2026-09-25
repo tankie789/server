@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "AFK",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "Announcement",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "solocloud.host",
-    "port": 25565,
+    "ip": "MinosSMP.aternos.me",
+    "port": 18297,
     "version": "1.20.1",
     "try-creative": false
   },
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -73,12 +73,12 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1546508926294429736/yL0D7SjI72PJYjYHw0v6ir4FRW5ybTOBCcq8nTtasiXMq_G7GeXwClEKvlpONnLF6o5o",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
